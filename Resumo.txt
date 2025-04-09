@@ -1,0 +1,48 @@
+Sede
+Vlans: 101 - 102
+Capacidade: 100 Ips por vlan (+ as do WR-AP)
+40 computadores (6 representando todos)
+2 ap (um ap e um wireless ap)
+2 tablets
+3 switchs
+DHCP - 101: 192.168.10.2 - 102: 192.168.11.2
+DNS - 192.168.10.3
+HTTP - 192.168.10.3
+Roteador:
+Gateways - 101: 192.168.10.1 - 102: 192.168.11.1
+"Intercomunicação - Sede" - 192.168.100.6
+
+Sub-rede WR-AP - 192.168.13.1
+
+------------------------------------------------
+
+Filial A
+Vlans: 201 - 202
+Capacidade: 50 Ips por vlan (+ as do WR-AP)
+20 computadores (2 representando todos)
+2 ap (um ap e um wireless ap)
+2 tablets
+1 switchs
+DHCP - 201: 192.168.20.1 - 202: 192.168.21.1
+Roteador:
+Gateways - 201: 192.168.20.2 - 202: 192.168.21.2
+"Intercomunicação - A" - 192.168.100.1
+"Intercomunicação - B" - 192.168.100.5
+
+Sub-rede WR-AP - 192.168.23.1
+
+------------------------------------------------
+
+Filial B
+Vlans: 301 - 302
+Capacidade: 50 Ips por vlan (+ as do WR-AP)
+20 computadores (2 representando todos)
+2 ap (um ap e um wireless ap)
+2 tablets
+1 switchs
+DHCP - 301: 192.168.30.1 - 302: 192.168.31.1
+Roteador:
+Gateways - 201: 192.168.20.2 - 202: 192.168.21.2
+"Intercomunicação - Sede" - 192.168.100.2
+
+Sub-rede WR-AP - 192.168.33.1
